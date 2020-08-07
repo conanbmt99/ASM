@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a0220"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <EditText
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_edittext"
+        android:hint="Nhập Tên"></EditText>
+    <EditText
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/custom_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Nhập Mật Khẩu"
+        android:layout_marginTop="50dp"></EditText>
+    <EditText
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/custom_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Nhập Lại Mật Khẩu"
+        android:layout_marginTop="50dp"></EditText>
+    <EditText
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/custom_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Nhập Ngày sinh"
+        android:layout_marginTop="50dp"></EditText>
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/btnHuy"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:text="Hũy">
+
+        </Button>
+
+        <Button
+
+            android:textSize="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:id="@+id/btnSignUp"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="40dp"
+            android:text="Đăng Ký"></Button>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

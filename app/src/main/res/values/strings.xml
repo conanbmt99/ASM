@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ASM</string>
+    <string name="input_username">Nhập Tài Khoản<n></n></string>
+    <string name="input_password">Nhập Mật Khẩu</string>
+    <string name="log_in">Đăng Nhập</string>
+    <string name="Sign_Up">Đăng Ký</string>
+</resources>

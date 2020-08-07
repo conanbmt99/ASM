@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bamboo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/etUsername"
+            android:paddingLeft="10dp"
+            android:background="@drawable/custom_edittext"
+            android:textColor="@color/black"
+            android:hint="@string/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:height="50dp"
+            android:layout_marginBottom="10dp"
+            ></EditText>
+        <EditText
+            android:id="@+id/edPassword"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:background="@drawable/custom_edittext"
+            android:textColor="@color/black"
+            android:hint="@string/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:height="50dp"
+            android:layout_marginBottom="10dp"
+            ></EditText>
+        <Button
+            android:id="@+id/btnLogin"
+            android:textAllCaps="false"
+            android:text="@string/log_in"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quên Mật Khẩu"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/costom_button"
+        android:text="@string/Sign_Up"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
